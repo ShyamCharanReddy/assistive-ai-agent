@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Private Secrets
+.env
+*.env
+!.env.example
+
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+
+# Audio / Temp Files
+*.wav
+*.mp3
+/tmp/assistive_ai_audio/
+
+# Local Audit Trail (created automatically during runtime)
+audit_log.json
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Archive Files
+*.zip
+*.tar.gz
